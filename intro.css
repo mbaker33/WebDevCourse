@@ -1,0 +1,17 @@
+h1{
+	color: rgb(240,100,100);
+	border: 1px solid rgb(255,100,80)
+}
+
+li{
+	color: green;
+}
+h4{
+	background: rgb(255,100,80);
+}
+body{
+	background: pink;
+/*	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-iRTDiTq5bvrviIEOzxTc7QTt-FAyvSx3mQ56f8t7TFXvgXfb);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
