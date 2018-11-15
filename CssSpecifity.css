@@ -1,4 +1,6 @@
 /* Type Selectors */
+/* https://specificity.keegan.st/ */
+
 /* Least Descriptive */
 li{
 	/* Lease specific of all selectors */
