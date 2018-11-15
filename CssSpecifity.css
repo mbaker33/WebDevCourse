@@ -1,0 +1,30 @@
+/* Type Selectors */
+/* Least Descriptive */
+li{
+	/* Lease specific of all selectors */
+}
+
+li a{
+	/* More specific because it has two selectors combined */
+}
+
+li + a{
+	/* Most specific type selector */
+}
+
+
+/* Class, Attribute and Pseudo-Class Selectors */
+/* More Descriptive */
+.hello{
+
+}
+
+input[type="text"]{
+
+}
+
+/* ID Selectors */
+/* Most Descriptive */
+#hello{
+
+}
