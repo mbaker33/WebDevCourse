@@ -1,0 +1,27 @@
+h1{
+	color: blue;
+	text-align: center;
+}
+html, body {
+	height: 300px;
+	margin: auto;
+}
+table{
+	width: 300px;
+	height: 300px;
+	margin: auto auto;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+tr:nth-child(-n+2) {
+	border-bottom:	2px solid black;
+	color: orange;
+	width: 33%;
+}
+
+td:nth-child(-n+2) {
+	border-right:	2px solid black;
+	color: orange;
+	width: 33%;
+} 
