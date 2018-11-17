@@ -1,7 +1,9 @@
 body {
-	border: 25px solid #BDC3C7;
-	width: 40%;
-	margin: 25px auto;
+	border: 20px solid #BDC3C7;
+	padding: 20px;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
 	font-family: "Source Sans Pro"
 }
 
@@ -11,17 +13,25 @@ div {
 
 hr {
 	margin: 25px;
+	/*display:block;*/
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
 }
 
 h4 {
 	text-transform: uppercase;
 	color: #3498db;
+	letter-spacing: 0.2rem;
 }
 h2 {
 	text-transform: capitalize;
 	color: #2c3e50;
+	font-weight: bold;
 }
-p:nth-of-type(1) {
+div p:nth-of-type(1) {
 	border-left: 5px solid #BDC3C7;
 	padding-left: 5px;	
 }
