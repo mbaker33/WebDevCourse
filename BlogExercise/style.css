@@ -1,0 +1,27 @@
+body {
+	border: 25px solid #BDC3C7;
+	width: 40%;
+	margin: 25px auto;
+	font-family: "Source Sans Pro"
+}
+
+div {
+	margin: 25px;
+}
+
+hr {
+	margin: 25px;
+}
+
+h4 {
+	text-transform: uppercase;
+	color: #3498db;
+}
+h2 {
+	text-transform: capitalize;
+	color: #2c3e50;
+}
+p:nth-of-type(1) {
+	border-left: 5px solid #BDC3C7;
+	padding-left: 5px;	
+}
