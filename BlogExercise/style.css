@@ -13,7 +13,7 @@ div {
 
 hr {
 	margin: 25px;
-	/*display:block;*/
+	display:block;
     border:none;
     color:white;
     height:1px;
