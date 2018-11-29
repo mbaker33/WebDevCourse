@@ -3,16 +3,7 @@
 //  and returns true if the number is even, and false otherwise.
 
 function isEven(number) {
-    if (number % 2 === 1) {
-        var evennum = false;
-    }
-    else if (number % 2 === 0) {
-        var evennum = true;
-    }
-    else {
-        var evennum = "not a number";
-    }
-    return evennum;
+    return number % 2 === 0;
 }
 
 
